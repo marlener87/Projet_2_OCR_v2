@@ -11,7 +11,6 @@
 .body {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
-    width: 100%;
 }
 
 /*----- GENERAL -----*/
@@ -20,9 +19,7 @@
     font-size: 22px;
 }
 
-.site {
-    width: 100%;
-}
+
 
 /* Navbar */
 .navbar {
@@ -36,30 +33,21 @@
     display: flex;
 }
 
-.navbar .conteneur {
+.navbar .element {
     padding-top: 50px;
 }
 
-.navbar .conteneur .liste_element {
+.navbar .conteneur .liste_titre {
     display: flex;
     flex-direction: row;
     align-items: baseline;
     list-style-type: none;
     gap: 70px;
+    margin: 0;
 }
 
 .logo {
     height: 20px;
-}
-
-.navbar .conteneur .element:nth-child(1)
-{
-    flex: 6;
-}
-
-.navbar .conteneur .element:nth-child(2)
-{
-    flex: 1;
 }
 
 .lien {
@@ -82,6 +70,27 @@
     color: var(--color-blue);
 }
 
+/* Header */
+.header {
+    margin: 20px 0;
+}
 
+.header .titre {
+    font-size: 22px;
+    font-weight: bold;
+}
 
 /*----- SPECIFIQUE -----*/
+/* Navbar */
+.navbar .conteneur .element:nth-child(1)
+{
+    flex: 6;
+}
+
+.navbar .conteneur .element:nth-child(2)
+{
+    flex: 1;
+}
+
+
+
