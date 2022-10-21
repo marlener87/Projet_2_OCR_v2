@@ -1,0 +1,65 @@
+@media screen and (max-width: 992px) {
+    .site {
+        margin: auto;
+        max-width: 992px;
+        width: 100%;
+    }
+
+    .hebergement_populaire {
+        flex-direction: column;
+    }
+
+    .hebergement {
+        margin-bottom: 50px;
+    }
+
+    .title_bottom {
+        margin-bottom: 50px;
+    }
+
+    .populaire {  
+        width: 82%;
+        margin: 0;
+    }
+
+    .populaire_conteneur {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .card_aside {
+        width: 31%;
+        height: 80%;
+        padding: 5px 0;
+        margin-right: 15px;
+        background-color: var(--color-white);
+        border-radius: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        box-sizing: border-box;
+        margin-bottom: 15px;
+    }
+
+    .body_aside {
+        margin-left: 8px;
+    }
+
+    .nom_hotel {
+        font-size: 14px;
+    }
+
+    .nuit_aside {
+        font-size: 13px;
+    }
+
+    .card_activite {
+        margin-right: 50px;
+    }
+    .img_activite {
+        width: 180px;
+        height: 210px;
+        object-fit: cover;
+    }
+
+}
