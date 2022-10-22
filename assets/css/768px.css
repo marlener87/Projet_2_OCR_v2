@@ -104,25 +104,39 @@
         width: 100%;
     }
 
+    /* Contenu principal */
     .hebergement_populaire {
         flex-direction: column-reverse;
         margin-bottom: 0;
     }
 
+    /* populaire */
     .populaire {
         border-radius: 0;
         width: auto;
     }
 
+    .populaire_conteneur {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card_aside {
+        width: 100%;
+    }
+
+    /* hébergement */
     .hebergement {
         background-color: white;
+        padding: 20px 20px 0 20px;
+        width: auto;
     }
 
     .carte_titre {
         font-size: 22px;
     }
 
-    .hebergement_conteneur, .populaire_hebergement {
+    .hebergement_conteneur {
         flex-direction: column;
         align-items: flex-start;
     }
