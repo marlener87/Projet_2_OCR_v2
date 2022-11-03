@@ -3,6 +3,7 @@
 
 :root {
     --color-blue: #0065fc;
+    --color-blue-light: #deebff;
     --color-grey: #f2f2f2;
     --color-white: #fff;
     ---color-black: #000;
@@ -42,6 +43,7 @@
 
 .navbar .element {
     padding-top: 50px;
+    padding-right: 20px;
 }
 
 .navbar .conteneur .liste_titre {
@@ -156,14 +158,14 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    border: 2px solid #d9d9d9;
+    border: 2px solid var(--color-grey);
     border-radius: 25px;
     margin-left: 30px;
     padding-right: 20px;
 }
 
 .btn_filtre:hover {
-   background-color: #deebff
+   background-color: var(--color-blue-light);
 }
 
 .img_filtre {
@@ -189,7 +191,7 @@
 .img_info {
     margin-right: 10px;
     padding: 2px 8px 2px 8px;
-    border: 1px solid #d9d9d9;
+    border: 1px solid var(--color-grey);
     border-radius: 50%;
 }
 
@@ -219,7 +221,6 @@
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
-    width: calc((100% / 3)-15px);
 }
 
 .card {
@@ -328,7 +329,6 @@
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
-    width: calc((100% / 3)-15px);
 }
 
 .card_aside {
