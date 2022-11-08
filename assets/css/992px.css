@@ -74,4 +74,8 @@
         object-fit: cover;
     }
 
+    .card_activite {
+        width:calc(100% / 4 - 20px);
+    }
+
 }
