@@ -22,9 +22,10 @@
 }
 
 .site {
+    padding: 0 15px;
     margin: auto;
     max-width: 1400px;
-    width: 100%;
+    width: calc(100% - 30px);
 }
 
 .strong {
