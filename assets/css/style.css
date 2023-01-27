@@ -1,5 +1,6 @@
 /*----- RESET -----*/
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+
 
 :root {
     --color-blue: #0065fc;
@@ -49,7 +50,6 @@
 
 .navbar .conteneur .liste_titre {
     display: flex;
-    /*flex-direction: row;*/
     align-items: baseline;
     list-style-type: none;
     gap: 70px;
@@ -102,10 +102,12 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    cursor: pointer;
 }
 
 .recherche, .submit {
     font-size: 20px;
+    cursor: pointer;
 }
 
 .position {
@@ -166,6 +168,7 @@
     border-radius: 25px;
     margin-left: 30px;
     padding-right: 20px;
+    cursor: pointer;
 }
 
 .btn_filtre:hover {
@@ -184,6 +187,10 @@
 .fa-solid {
     color: var(--color-blue);
     font-size: 20px;
+}
+
+.fa-location-dot {
+    color: var(--color-black);
 }
 
 /* Info */
@@ -392,7 +399,7 @@
 }
 
 .card_activite {
-    width:calc(100% / 4 - 40px);
+    width:calc(100% / 4 - 25px);
     margin: 20px 0 20px 0;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 20px;
@@ -418,6 +425,7 @@
 .footer {
     background-color: var(--color-grey);
     padding: 20px 70px 40px 70px;
+    margin-top: 30px;
 }
 
 .conteneur_footer {

@@ -3,6 +3,10 @@
         margin: 0;
     }
 
+    .site {
+        padding: 0;
+    }
+
     .active:hover {
         border-top: 3px solid transparent;
     }
