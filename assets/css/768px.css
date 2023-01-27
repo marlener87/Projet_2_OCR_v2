@@ -11,6 +11,10 @@
         border-top: 3px solid transparent;
     }
 
+    .navbar .element {
+        padding-right: 0;
+    }
+
     .navbar .conteneur {
         display: flex;
         flex-direction: column; 

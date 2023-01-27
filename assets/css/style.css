@@ -10,6 +10,10 @@
     --color-black: #000;
 }
 
+/** {
+    box-sizing: border-box;
+}*/
+
 /*----- GENERAL -----*/
 .carte_titre {
     font-size: 22px;
